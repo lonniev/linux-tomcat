@@ -10,4 +10,5 @@ end
 
 tomcat_service node['linux-tomcat']['instance_name'] do
   action :start
+  env_vars [{ 'CATALINA_PID' => '/var/log/tomcat.pid' }]
 end
