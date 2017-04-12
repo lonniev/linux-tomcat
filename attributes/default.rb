@@ -18,4 +18,4 @@
 
 # the choice of Apache Tomcat Release and an Instance Name
 default['linux-tomcat']['release'] = "7.0.77"
-default['linux-tomcat']['instance_name'] = "tomcat-for-rlia"
+default['linux-tomcat']['instance_name'] = "my-instance"
