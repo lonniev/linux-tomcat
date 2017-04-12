@@ -19,4 +19,6 @@ issues_url 'https://github.com/lonniev/linux-tomcat/issues'
 #
 source_url 'https://github.com/lonniev/linux-tomcat'
 
-depends tomcat
+supports         'ubuntu'
+
+depends          'tomcat'
